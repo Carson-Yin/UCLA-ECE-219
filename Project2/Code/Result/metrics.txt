@@ -1,0 +1,79 @@
+tf_idf_matrix shape: (4732, 15926)
+Contingency table: 
+[[1904  439]
+ [  36 2353]]
+homogeneity_score:  0.5750
+completeness_score:  0.5888
+v_measure_score:  0.5818
+adjusted_rand_score:  0.6387
+adjusted_mutual_info_score:  0.5749
+
+SVD result: 
+homogeneity_score: [0.02017757575358565, 0.5409612657101549, 0.5324201215447779, 0.507732303504967, 0.5593566612807542, 0.5615189074465833, 0.5807517354858414, 0.570995877135632, 0.553956736626781]
+completeness_score: [0.02059431818627447, 0.5548471368898652, 0.5477452081893316, 0.5301943618466556, 0.5736472910859045, 0.5751973861402934, 0.5919507108454373, 0.5845724563842136, 0.5689909462701235]
+v_measure_score: [0.02038381714177614, 0.5478162217691166, 0.539973950823844, 0.5187202788639245, 0.5664118520051209, 0.5682758479909887, 0.5862977496483386, 0.5777044122794882, 0.561373201203567]
+adjusted_rand_score: [0.027387869422226593, 0.6080022923705757, 0.5955401734880841, 0.550740588224423, 0.6232608383617556, 0.6272723521685927, 0.6529775104977334, 0.636008213339085, 0.6159397774017067]
+adjusted_mutual_info_score: [0.020028129155194075, 0.5408912510023871, 0.5323488039708061, 0.5076572197354242, 0.559289452328467, 0.5614520283370464, 0.5806877900455473, 0.5709304435187039, 0.5538887039890621]
+
+NMF result: 
+homogeneity_score: [0.02017757575358565, 0.5083820455330904, 0.5577162412108894, 0.4758406314521185, 0.09508142815608778, 0.05983590205205319, 0.051943657444582784, 0.030796485697188413, 0.02391446993790597]
+completeness_score: [0.02059431818627447, 0.528377397190402, 0.5654950487323827, 0.503124416095899, 0.21604451304858735, 0.18268588116515247, 0.17463214299176938, 0.14951610409266008, 0.13929772008613234]
+v_measure_score: [0.02038381714177614, 0.5181869022412136, 0.5615787088791135, 0.48910232383410657, 0.1320482680833915, 0.09014591882578227, 0.08007061828234413, 0.051073200895794306, 0.040820861958019435]
+adjusted_rand_score: [0.027387869422226593, 0.5589279694334641, 0.6434467515185547, 0.5076919976748777, 0.036045524818264306, 0.011863689998271691, 0.008846513715621878, 0.002817967070689022, 0.0015403335289544537]
+adjusted_mutual_info_score: [0.020028129155194075, 0.5083070610850395, 0.5576487825161842, 0.47576068273989275, 0.09494328962997219, 0.05969229698647302, 0.051798810870288425, 0.03064821968028511, 0.02376502000286407]
+
+********************best_svd********************
+homogeneity_score:  0.5807
+completeness_score:  0.5922
+v_measure_score:  0.5864
+adjusted_rand_score:  0.6516
+adjusted_mutual_info_score:  0.5806
+
+********************best_nmf********************
+homogeneity_score:  0.0951
+completeness_score:  0.2160
+v_measure_score:  0.1320
+adjusted_rand_score:  0.0360
+adjusted_mutual_info_score:  0.0949
+
+********************SVD_None_transformation********************
+homogeneity_score:  0.5783
+completeness_score:  0.5903
+v_measure_score:  0.5842
+adjusted_rand_score:  0.6482
+adjusted_mutual_info_score:  0.5783
+
+********************SVD_Scaling_transformation********************
+homogeneity_score:  0.1638
+completeness_score:  0.2364
+v_measure_score:  0.1935
+adjusted_rand_score:  0.1203
+adjusted_mutual_info_score:  0.1637
+
+********************NMF_None_transformation********************
+homogeneity_score:  0.0951
+completeness_score:  0.2160
+v_measure_score:  0.1320
+adjusted_rand_score:  0.0360
+adjusted_mutual_info_score:  0.0949
+
+********************NMF_Scaling_transformation********************
+homogeneity_score:  0.5092
+completeness_score:  0.5173
+v_measure_score:  0.5132
+adjusted_rand_score:  0.5955
+adjusted_mutual_info_score:  0.5091
+
+********************NMF_Logarithm_transformation********************
+homogeneity_score:  0.1490
+completeness_score:  0.1493
+v_measure_score:  0.1492
+adjusted_rand_score:  0.1990
+adjusted_mutual_info_score:  0.1489
+
+********************NMF_All_transformation********************
+homogeneity_score:  0.1499
+completeness_score:  0.1503
+v_measure_score:  0.1501
+adjusted_rand_score:  0.2002
+adjusted_mutual_info_score:  0.1498
